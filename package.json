@@ -2,12 +2,13 @@
   "name": "dartboard",
   "version": "1.0.0",
   "main": "expo-router/entry",
-  "homepage": "https://ben-hodgson.github.io/dartboard",
+  "homepage": "https://ben-hodgson.github.io/dartboard/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web-build": "expo export --platform web",
+    "web-deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "expo": "~54.0.9",
