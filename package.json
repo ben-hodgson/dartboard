@@ -2,6 +2,7 @@
   "name": "dartboard",
   "version": "1.0.0",
   "main": "expo-router/entry",
+  "homepage": "https://your-username.github.io/your-repo",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
