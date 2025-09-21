@@ -9,7 +9,7 @@ COPY . .
 ENV EXPO_PUBLIC_PATH=/dartboard/
 
 RUN npm ci
-RUN npx wxpo export --platform web
+RUN npx expo export --platform web
 
 # 2. Serve phase
 FROM node:18-slim as runner
